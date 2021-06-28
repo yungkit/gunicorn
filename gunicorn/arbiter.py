@@ -258,7 +258,7 @@ class Arbiter(object):
 
     def handle_int(self):
         "SIGINT handling"
-        self.stop(False)
+        # self.stop(False)
         raise StopIteration
 
     def handle_quit(self):
